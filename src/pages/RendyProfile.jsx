@@ -154,10 +154,10 @@ export default function RendyProfile() {
             </h2>
             
             <motion.div {...hoverEffect} className="group relative bg-slate-50 p-6 rounded-xl border border-slate-100 hover:border-indigo-200 hover:shadow-md transition-all">
-              <a href="https://pahamin.my.id" target="_blank" rel="noreferrer" className="absolute top-6 right-6 p-2 bg-white rounded-lg shadow-sm text-slate-400 hover:text-[#6366F1] transition-colors">
+              <a href="https://pahaminutbk.my.id" target="_blank" rel="noreferrer" className="absolute top-6 right-6 p-2 bg-white rounded-lg shadow-sm text-slate-400 hover:text-[#6366F1] transition-colors">
                 <FaExternalLinkAlt size={14} />
               </a>
-              <h3 className="text-lg font-bold text-[#0F172A] mb-1">pahamin.my.id</h3>
+              <h3 className="text-lg font-bold text-[#0F172A] mb-1">pahaminutbk.my.id</h3>
               <p className="text-[10px] font-bold text-[#6366F1] uppercase tracking-widest mb-3 bg-indigo-50 w-fit px-2 py-1 rounded">Independent Solo Project</p>
               <p className="text-[13px] text-slate-600 leading-relaxed font-medium">
                 Platform edukasi berbasis web yang dirancang dan dikembangkan sepenuhnya secara mandiri. Proyek ini berfokus pada implementasi UI/UX yang bersih, optimalisasi performa frontend, dan penciptaan pengalaman pengguna yang stabil serta responsif.
