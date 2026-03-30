@@ -71,6 +71,4 @@ Halaman profil masing-masing anggota dapat diakses melalui rute:
 Universitas Brawijaya
 Building Up Noble Future 
 
-
-
 clone [https://github.com/Rendirmdhnii/proyek-react-kelompok.git](https://github.com/Rendirmdhnii/proyek-react-kelompok.git)
