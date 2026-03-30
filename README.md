@@ -7,7 +7,7 @@ Proyek ini adalah tugas kolaborasi tim untuk membangun profil digital mahasiswa 
 ## 👥 Anggota Kelompok
 | Nama Lengkap | NIM | Peran | Branch |
 | :--- | :--- | :--- | :--- |
-| ** Muhammad Rendy Ramadhani** | 253140707111058| Lead Developer | `dev/rendy` |
+| **Muhammad Rendy Ramadhani** | 253140707111058| Lead Developer | `dev/rendy` |
 | **Sofyan Muzakki** |  253140707111087 | Frontend Developer | `dev/sofyan` |
 | **Desbellion Seccar Ramis** | 253140707111074 | UI/UX Designer | `dev/desbellion` |
 | **Krisna Aji Dharma Jati** | 253140707111078 | Frontend Developer | `dev/krisna` |
