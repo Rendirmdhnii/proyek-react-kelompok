@@ -1,6 +1,6 @@
 # 🚀 Proyek ReactJS Kelompok - Teknologi Informasi (T2F)
 
-Proyek ini adalah tugas kolaborasi tim untuk membangun profil digital mahasiswa menggunakan **ReactJS**, **Tailwind CSS**, dan **Framer Motion**. Project ini dikelola menggunakan **Git & GitHub** dengan sistem branching mandiri sesuai instruksi BRONE UB.
+Proyek ini adalah tugas kolaborasi tim untuk membangun profil digital mahasiswa menggunakan **ReactJS**, **Tailwind CSS**, dan **Framer Motion**. Project ini dikelola menggunakan **Git & GitHub** dengan sistem branching mandiri sesuai instruksi BRONE UB. 
 
 ---
 
