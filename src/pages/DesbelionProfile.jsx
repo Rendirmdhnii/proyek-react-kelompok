@@ -1,8 +1,132 @@
-export default function DesbelionProfile() {
+const hobbies = [
+  "Gaming",
+  "Reading",
+  "Music"
+];
+
+export default function DesbellionProfile() {
   return (
-    <div className="p-20 text-center">
-      <h1 className="text-3xl font-bold">Halaman Profil Desbelion</h1>
-      <p>Sedang dalam pengerjaan...</p>
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-purple-900 to-gray-900 py-16 px-6">
+      
+      <div className="max-w-4xl mx-auto">
+        
+        {/* CARD UTAMA */}
+        <div className="bg-gradient-to-br from-gray-800 to-gray-900 shadow-2xl rounded-2xl overflow-hidden border border-purple-500/30">
+          
+          {/* BANNER GRADIENT */}
+          <div className="h-48 bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 relative overflow-hidden">
+            <div className="absolute inset-0 opacity-30">
+              <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full mix-blend-screen filter blur-3xl"></div>
+            </div>
+          </div>
+
+          {/* PROFILE SECTION */}
+          <div className="px-8 pb-8 -mt-16 relative">
+            
+            <div className="flex flex-col md:flex-row items-start md:items-end gap-6 mb-8">
+              
+              {/* FOTO PROFIL */}
+              <div className="flex-shrink-0">
+                <img
+                  src="/desbellion.jpeg"
+                  alt="profile"
+                  className="w-37 h-44 rounded-2xl border-4 border-purple-400 shadow-2xl object-cover hover:scale-105 transition-transform"
+                />
+              </div>
+
+              <div className="flex-grow">
+                {/* NAMA */}
+                <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">
+                  Desbellion Seccar Ramis
+                </h1>
+
+                {/* INSTITUSI */}
+                <p className="text-gray-300">
+                  Universitas Brawijaya | Fakultas Vokasi
+                </p>
+              </div>
+            </div>
+
+            {/* INFO GRID */}
+            <div className="grid md:grid-cols-3 gap-4 mb-8 bg-gray-900/50 p-6 rounded-xl border border-purple-500/20">
+              <div>
+                <p className="text-gray-400 text-sm">Kelas</p>
+                <p className="text-white text-lg font-bold">T2F</p>
+              </div>
+              <div>
+                <p className="text-gray-400 text-sm">Program Studi</p>
+                <p className="text-white text-lg font-bold">Teknologi Informasi</p>
+              </div>
+              <div>
+                <p className="text-gray-400 text-sm">Domisili</p>
+                <p className="text-white text-lg font-bold">Trenggalek, Jawa Timur</p>
+              </div>
+            </div>
+
+          </div>
+
+          {/* ABOUT SECTION */}
+          <div className="border-t border-purple-500/30 px-8 py-8 bg-gray-800/50">
+            <h2 className="text-3xl font-bold text-white mb-4 flex items-center gap-2">
+              💭 Tentang Diri
+            </h2>
+            <p className="text-gray-300 leading-relaxed text-base md:text-lg mb-4">
+              Saya adalah mahasiswa Teknologi Informasi yang memiliki minat besar dalam bidang 
+              pengembangan web, khususnya pada bagian frontend development. Saya terbiasa menggunakan 
+              teknologi seperti HTML, CSS, JavaScript, ReactJS, dan Tailwind CSS untuk membangun 
+              tampilan aplikasi yang modern dan responsif. Selain itu, saya juga tertarik dalam 
+              mempelajari UI/UX design agar dapat menciptakan pengalaman pengguna yang lebih baik. 
+              Saya memiliki semangat belajar yang tinggi dan selalu berusaha mengikuti perkembangan 
+              teknologi terbaru di dunia IT. Dalam bekerja, saya mampu berkolaborasi dengan tim, 
+              berkomunikasi dengan baik, serta memiliki tanggung jawab terhadap tugas yang diberikan. 
+              Harapan saya ke depan adalah dapat menjadi seorang developer profesional yang mampu 
+              menciptakan aplikasi yang bermanfaat bagi banyak orang.
+            </p>
+          </div>
+
+          {/* HOBBIES SECTION */}
+          <div className="border-t border-purple-500/30 px-8 py-8 bg-gray-800/50">
+            <h2 className="text-3xl font-bold text-white mb-4 flex items-center gap-2">
+              🎯 Hobi & Minat
+            </h2>
+            <div className="flex flex-wrap gap-3">
+              {hobbies.map((hobby, index) => (
+                <span
+                  key={index}
+                  className="px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full text-sm font-semibold hover:shadow-lg hover:scale-105 transition-all"
+                >
+                  {hobby}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* CONTACT SECTION */}
+          <div className="border-t border-purple-500/30 px-8 py-8 bg-gradient-to-r from-purple-900/50 to-blue-900/50">
+            <h2 className="text-3xl font-bold text-white mb-4 flex items-center gap-2">
+              📞 Kontak
+            </h2>
+            <div className="flex flex-wrap gap-4">
+              <a href="mailto:desbellionsr06@gmail.com" className="px-6 py-3 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 transition-all">
+                📧 Email
+              </a>
+              <a href="https://www.linkedin.com/in/desbellion-seccar-7489443ba" className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all">
+                🔗 LinkedIn
+              </a>
+              <a href="https://github.com/desbellionsr06" className="px-6 py-3 bg-gray-700 text-white rounded-lg font-semibold hover:bg-gray-600 transition-all">
+                💻 GitHub
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        {/* Footer */}
+        <div className="text-center mt-12 text-gray-400">
+          <p>© 2026 Desbellion Seccar Ramis | Universitas Brawijaya</p>
+        </div>
+
+      </div>
     </div>
-  )
+  );
 }
