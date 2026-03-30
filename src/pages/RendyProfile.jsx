@@ -154,7 +154,7 @@ export default function RendyProfile() {
             </h2>
             
             <motion.div {...hoverEffect} className="group relative bg-slate-50 p-6 rounded-xl border border-slate-100 hover:border-indigo-200 hover:shadow-md transition-all">
-              <a href="https://pahamin.my.id" target="_blank" rel="noreferrer" className="absolute top-6 right-6 p-2 bg-white rounded-lg shadow-sm text-slate-400 hover:text-[#6366F1] transition-colors">
+              <a href="https://pahaminutbk.my.id" target="_blank" rel="noreferrer" className="absolute top-6 right-6 p-2 bg-white rounded-lg shadow-sm text-slate-400 hover:text-[#6366F1] transition-colors">
                 <FaExternalLinkAlt size={14} />
               </a>
               <h3 className="text-lg font-bold text-[#0F172A] mb-1">pahamin.my.id</h3>
