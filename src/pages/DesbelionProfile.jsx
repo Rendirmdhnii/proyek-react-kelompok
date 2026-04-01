@@ -72,13 +72,7 @@ export default function DesbellionProfile() {
               <span className="text-3xl">💭</span> Tentang Diri
             </h2>
             <p className="text-gray-300 leading-relaxed text-justify italic text-base md:text-lg mb-4">
-              Saya adalah mahasiswa Teknologi Informasi yang memiliki minat besar dalam bidang 
-              pengembangan web, khususnya pada bagian frontend development. Saya terbiasa menggunakan 
-              teknologi seperti HTML, CSS, JavaScript, ReactJS, dan Tailwind CSS untuk membangun 
-              tampilan aplikasi yang modern dan responsif. Selain itu, saya juga tertarik dalam 
-              mempelajari UI/UX design agar dapat menciptakan pengalaman pengguna yang lebih baik. 
-              Saya memiliki semangat belajar yang tinggi dan selalu berusaha mengikuti perkembangan 
-              teknologi terbaru di dunia IT.
+              Saya adalah mahasiswa Teknologi Informasi yang memiliki minat besar dalam bidang pengembangan web, khususnya pada bagian frontend development. Saya terbiasa menggunakan teknologi seperti HTML, CSS, JavaScript, ReactJS, dan Tailwind CSS untuk membangun tampilan aplikasi yang modern dan responsif. Selain itu, saya juga tertarik dalam mempelajari UI/UX design agar dapat menciptakan pengalaman pengguna yang lebih baik. Saya memiliki semangat belajar yang tinggi dan selalu berusaha mengikuti perkembangan teknologi terbaru di dunia IT. Saya juga senang mengerjakan proyek kolaborasi maupun individu untuk meningkatkan keterampilan saya.
             </p>
           </div>
 
